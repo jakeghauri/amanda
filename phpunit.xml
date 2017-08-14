@@ -9,12 +9,12 @@
         processIsolation="false"
         stopOnFailure="false"
         syntaxCheck="true"
-        bootstrap="test/bootstrap.php"
+        bootstrap="./test/bootstrap.php"
 >
 
     <testsuites>
         <testsuite name="Main Suite">
-            <directory suffix="Test.php">test/src</directory>
+            <directory>./test/src</directory>
         </testsuite>
     </testsuites>
 </phpunit>
